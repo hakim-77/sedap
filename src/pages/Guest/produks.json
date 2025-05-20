@@ -1,0 +1,37 @@
+[
+    {
+        "KodeProduk": "01",
+        "NamaProduk": "Nasi Goreng",
+        "Harga": "Rp 100.000",
+        "Stok": "20",
+         "ImageUrl": "public/img/nasgor.jpg"
+    },
+    {
+        "KodeProduk": "02",
+        "NamaProduk": "Nasi Bawang",
+        "Harga": "Rp 100.000.000",
+        "Stok": "2",
+        "ImageUrl": "public/img/nasibawang.jpg"
+    },
+    {
+        "KodeProduk": "03",
+        "NamaProduk": "Sate",
+        "Harga": "Rp 150.000",
+        "Stok": "13",
+        "ImageUrl": "public/img/satw.jpg"
+    },
+    {
+        "KodeProduk": "04",
+        "NamaProduk": "Soto",
+        "Harga": "Rp 10.000",
+        "Stok": "28",
+        "ImageUrl": "public/img/soto.jpg"
+    },
+    {
+        "KodeProduk": "05",
+        "NamaProduk": "Dadar Gulung",
+        "Harga": "Rp 50.000.000",
+        "Stok": "5",
+        "ImageUrl": "public/img/dadargulung.jpg"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": "01",
+        "nama": "Winnie Collier",
+        "jabatan": "Customer",
+        "ulasan": "I was very impresed by the osfins service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum.",
+        "gambarUrl": "/img/testimonial-1.jpg"
+    },
+    {
+        "id": "02",
+        "nama": "Helen Woods",
+        "jabatan": "Loyal Customer",
+        "ulasan": "The quality of the products is outstanding, and the delivery is always on time. Highly recommend this organic food market to everyone!",
+        "gambarUrl": "/img/testimonial-2.jpg"
+    },
+    {
+        "id": "03",
+        "nama": "Ethan Thomas",
+        "jabatan": "New Customer",
+        "ulasan": "A fantastic selection of fresh produce. I love the commitment to organic and sustainable farming. Will definitely be a repeat customer.",
+        "gambarUrl": "/img/testimonial-3.jpg"
+    }
+]
