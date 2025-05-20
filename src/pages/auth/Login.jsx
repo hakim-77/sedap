@@ -40,7 +40,7 @@ export default function Login() {
         }
 
         // Redirect ke dashboard jika login sukses
-        navigate("/");
+        navigate("/dashboard");
       })
       .catch((err) => {
         if (err.response) {

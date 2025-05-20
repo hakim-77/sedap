@@ -45,7 +45,7 @@ export default function NotFound() {
 
         {/* Tombol Kembali */}
         <Link
-          to="/"
+          to="/dashboard"
           className="mt-8 inline-flex items-center bg-green-600 text-white px-7 py-3 rounded-lg text-lg font-medium hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 ease-in-out shadow-md hover:shadow-lg"
         >
           <HomeIcon /> {/* Ikon di tombol */}
