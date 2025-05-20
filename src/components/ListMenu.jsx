@@ -74,7 +74,7 @@ export default function SidebarMenu() {
                 <li>
                     <NavLink
                         id="menu-7"
-                        to="/guest"
+                        to="/403"
                         className={menuClass}>
                         <BiError className="mr-2 text-xl"/>
                         Error 403
