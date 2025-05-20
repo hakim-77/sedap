@@ -57,7 +57,7 @@ function App() {
           <Route path="/401" element={<ErrorPages401 />} />
           <Route path="/403" element={<ErrorPages403 />} /> */}
           {/* <Route path="*" element={<NotFound />} /> */}
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="/AddCustomers" element={<InputCustomers />} />
