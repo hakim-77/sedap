@@ -44,6 +44,7 @@ const HeroSection = React.lazy(() => import("./components/Guest/HeroSection"))
 const DashboardGuest = React.lazy(() => import("./pages/Guest/DashboardGuest"))
 const GuestLayout = React.lazy(() => import("./layout/GuestLayout"))
 const AboutUs = React.lazy(() => import("./components/Guest/AboutUs"))
+const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
 
 function App() {
   return (
@@ -65,6 +66,7 @@ function App() {
           <Route path="/AddOrders" element={<InputOrders />} />
           <Route path="/User" element={<User />} />
           <Route path="products" element={<Products/>} />
+          <Route path="/products/:id" element={<ProductDetail />} /> 
         </Route>
 
         <Route element={<AuthLayout />}>

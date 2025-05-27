@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import PageHeader from "../components/PageHeader";
 //import products from "./product-sedap.json";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export default function Products() {
   const breadcrumb = ["Dashboard", "Product List"];
@@ -62,7 +63,14 @@ export default function Products() {
               <td className="px-6 py-4 font-medium text-gray-700">
                 {index + 1}.
               </td>
-              <td className="px-6 py-4">{item.title}</td>
+              <td className="px-6 py-4">
+                <Link
+                  to={`/products/${item.id}`}
+                  className="text-emerald-400 hover:text-emerald-500"
+                >
+                  {item.title}
+                </Link>
+              </td>
               <td className="px-6 py-4">{item.category}</td>
               <td className="px-6 py-4">Rp {item.price * 1000}</td>
               <td className="px-6 py-4">{item.brand}</td>
