@@ -39,7 +39,7 @@ export default function Login() {
           return;
         }
 
-        // Redirect ke dashboard jika login sukses
+        
         navigate("/dashboard");
       })
       .catch((err) => {
