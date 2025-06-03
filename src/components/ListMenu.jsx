@@ -1,4 +1,5 @@
-import { MdFastfood } from "react-icons/md"; 
+import { CgNotes } from "react-icons/cg";
+import { MdFastfood } from "react-icons/md";
 import { BiError } from "react-icons/bi";
 import { BiErrorAlt } from "react-icons/bi";
 import { CgUnavailable } from "react-icons/cg";
@@ -11,11 +12,10 @@ import { Link, NavLink } from "react-router-dom";
 export default function SidebarMenu() {
   const menuClass = ({ isActive }) =>
     `flex cursor-pointer items-center rounded-xl p-4  space-x-2
-        ${
-          isActive
-            ? "text-hijau bg-green-200 font-extrabold"
-            : "text-gray-600 hover:text-hijau hover:bg-green-200 hover:font-extrabold"
-        }`;
+        ${isActive
+      ? "text-hijau bg-green-200 font-extrabold"
+      : "text-gray-600 hover:text-hijau hover:bg-green-200 hover:font-extrabold"
+    }`;
   return (
     <div id="sidebar-menu" className="mt-10">
       <ul id="menu-list" className="space-y-3">
@@ -65,6 +65,12 @@ export default function SidebarMenu() {
           <NavLink id="menu-8" to="/products" className={menuClass}>
             <MdFastfood className="mr-4 text-xl" />
             Products
+          </NavLink>
+        </li>
+        <li>
+          <NavLink id="menu-9" to="/notes" className={menuClass}>
+            <CgNotes className="mr-4 text-xl" />
+            Notes
           </NavLink>
         </li>
       </ul>

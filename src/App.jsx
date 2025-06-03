@@ -17,6 +17,7 @@ import { Route, Routes } from "react-router-dom";
 // import Register from './pages/auth/Register.jsx'
 import React, { Suspense } from 'react'
 import Products from './pages/Products';
+import Notes from './pages/Notes';
 // import AboutUs from './components/Guest/AboutUs';
 // import GuestLayout from './layout/GuestLayout';
 // import DashboardGuest from './pages/Guest/DashboardGuest';
@@ -66,7 +67,8 @@ function App() {
           <Route path="/AddOrders" element={<InputOrders />} />
           <Route path="/User" element={<User />} />
           <Route path="products" element={<Products/>} />
-          <Route path="/products/:id" element={<ProductDetail />} /> 
+          <Route path="/products/:id" element={<ProductDetail />} />
+          <Route path="/notes" element={<Notes />} /> 
         </Route>
 
         <Route element={<AuthLayout />}>
